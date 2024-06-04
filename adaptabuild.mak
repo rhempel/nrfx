@@ -73,9 +73,9 @@ SRC_C += drivers/src/nrfx_wdt.c
 SRC_C += drivers/src/prs/nrfx_prs.c
 
 SRC_C += mdk/startup_nrf_common.c
-SRC_C += mdk/$(MCU_SYSTEM_FILE).c
+SRC_C += mdk/$(MCU_SYSTEM_FILE)
 
-SRC_ASM += mdk/$(MCU_STARTUP_FILE).S
+SRC_ASM += mdk/$(MCU_STARTUP_FILE)
 
 # ----------------------------------------------------------------------------
 # Set up the module level source and include paths
