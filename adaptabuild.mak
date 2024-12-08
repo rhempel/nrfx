@@ -78,12 +78,7 @@ SRC_C += mdk/$(MCU_SYSTEM_FILE)
 SRC_ASM += mdk/$(MCU_STARTUP_FILE)
 
 # ----------------------------------------------------------------------------
-# Set up the module level source and include paths
-
-$(MODULE)_SRCPATH :=
-$(MODULE)_SRCPATH += $(MODULE_PATH)/drivers/src
-$(MODULE)_SRCPATH += $(MODULE_PATH)/drivers/src/prs
-$(MODULE)_SRCPATH += $(MODULE_PATH)/mdk
+# Set up the module level include path
 
 $(MODULE)_INCPATH :=
 $(MODULE)_INCPATH += $(MODULE_PATH)
